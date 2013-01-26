@@ -1,0 +1,14 @@
+{
+  "version": "0.01",
+  "name": "rssviewer",
+  "description": "A simple rss viewer for one (and soon more!) rss feed.",
+  "launch_path": "/",
+  "icons": {
+    "128": "/rssviewer.png"
+  },
+  "developer": {
+    "name": "Erwan Ameil & Romain Brasier",
+    "url": "https://github.com/idlewan/rssviewer"
+  },
+  "default_locale": "en"
+}
