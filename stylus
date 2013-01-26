@@ -1,0 +1,7 @@
+#!/bin/sh
+
+DIR="$( cd -P "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd $DIR
+
+#stylus -w --out ../src/css ../src/styl/*
+stylus -w --out ./ *.styl

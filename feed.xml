@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+	<channel>
+		
+		<title>Coding Horror</title>
+		<link>http://www.codinghorror.com/blog/</link>
+		<description>programming and human factors - Jeff Atwood</description>
+		<language>en-us</language>
+      
+		<lastBuildDate>Mon, 21 Jan 2013 13:10:12 -0800</lastBuildDate>
+		<pubDate>Mon, 21 Jan 2013 13:10:12 -0800</pubDate>
+		<generator>http://www.typepad.com/</generator>
+		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+		
+		<image>
+			<title>Coding Horror</title>
+			<url>http://www.codinghorror.com/blog/images/coding-horror-official-logo-small.png</url>
+			<width>100</width>
+			<height>91</height>
+			<description>Logo image used with permission of the author. (c) 1993 Steven C. McConnell. All Rights Reserved.</description>
+			<link>http://www.codinghorror.com/blog/</link>
+		</image>
+		
+		<xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+
+	
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/codinghorror" /><feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="codinghorror" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" /><feedburner:emailServiceId xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">codinghorror</feedburner:emailServiceId><feedburner:feedburnerHostname xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">http://feedburner.google.com</feedburner:feedburnerHostname><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://add.my.yahoo.com/rss?url=http%3A%2F%2Ffeeds.feedburner.com%2Fcodinghorror" src="http://us.i1.yimg.com/us.yimg.com/i/us/my/addtomyyahoo4.gif">Subscribe with My Yahoo!</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://feeds.my.aol.com/add.jsp?url=http%3A%2F%2Ffeeds.feedburner.com%2Fcodinghorror" src="http://o.aolcdn.com/favorites.my.aol.com/webmaster/ffclient/webroot/locale/en-US/images/myAOLButtonSmall.gif">Subscribe with My AOL</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.bloglines.com/sub/http://feeds.feedburner.com/codinghorror" src="http://www.bloglines.com/images/sub_modern11.gif">Subscribe with Bloglines</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://fusion.google.com/add?feedurl=http%3A%2F%2Ffeeds.feedburner.com%2Fcodinghorror" src="http://buttons.googlesyndication.com/fusion/add.gif">Subscribe with Google</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.live.com/?add=http%3A%2F%2Ffeeds.feedburner.com%2Fcodinghorror" src="http://tkfiles.storage.msn.com/x1piYkpqHC_35nIp1gLE68-wvzLZO8iXl_JMledmJQXP-XTBOLfmQv4zhj4MhcWEJh_GtoBIiAl1Mjh-ndp9k47If7hTaFno0mxW9_i3p_5qQw">Subscribe with Live.com</feedburner:feedFlare><item>
+			<title>The End of Ragequitting</title>
+			<link>http://www.codinghorror.com/blog/2013/01/the-end-of-ragequitting.html</link>
+			<description><![CDATA[<p>
+When Joel Spolsky, my business partner on Stack Overflow and Stack Exchange, asked me what I wanted to do after <a href="http://www.codinghorror.com/blog/2012/02/farewell-stack-exchange.html">I left Stack Exchange</a>, I distinctly remember mentioning <a href="http://en.wikipedia.org/wiki/Aaron_Swartz">Aaron Swartz</a>. That's what Aaron was to us hackers: <b>an exemplar of the noble, selfless behavior and positive action that all hackers <i>aspire</i> to</b> &ndash; but very few actually achieve.
+</p>
+<p>
+And now, tragically, Aaron is gone at the tender age of 26. He won't be achieving anything any more.
+</p>
+<p>
+I never knew Aaron, but I <i>knew</i> Aaron.
+</p>
+<p>
+<a href="http://stackoverflow.com/users/4300/aaronsw"><img alt="Aaron-swartz-stack-overflow" title="Aaron-swartz-stack-overflow" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017d404980a4970c-800wi" border="0" /></a>
+</p>
+<p>
+Most of all, I am disappointed.
+</p>
+<p>
+I'm deeply disappointed in <b>myself</b>, for not understanding just how bitterly unfair the government charges were against Aaron. Perhaps the full, grotesque details couldn't be revealed for a pending legal case. But we should have been outraged. I am gutted that I did not contribute to his defense in any way, either financially or by writing about it here. I blindly assumed he would prevail, as powerful activists on the side of fairness, openness, and freedom are fortunate enough to often do in our country. I was wrong.
+</p>
+<p>
+I'm disappointed in our <b>government</b>, for going to such lengths to make an example of someone who was so obviously a positive force. Someone who actively worked to change the world for the better in everything he did, starting from the age of 12. There was no evil in this man. And yet the absurd government case against him was cited by his family as <a href="http://www.latimes.com/news/obituaries/la-me-0113-aaron-swartz-20130113,0,5232490.story">directly contributing to his death</a>.
+</p>
+<p>
+I'm frustrated by the idea that <b>martyrdom</b> works. The death of Aaron Swartz is now turning into <a href="http://www.theatlantic.com/technology/archive/2013/01/aarons-law-violating-a-sites-terms-of-service-should-not-land-you-in-jail/267247/">an effective tool for change</a>, a rallying cry, proving the perverse lesson that nobody takes an issue seriously until a great person dies for the cause. The idea that Aaron killing himself <i>was a viable strategy</i>, more than going on to prevail in this matter and so many more in his lifetime, makes me incredibly angry.
+</p>
+<p>
+But also, I must admit that I am a little disappointed in <b>Aaron</b>. I understand that depression is a serious disease that can fell any person, however strong. But he chose the path of the activist long ago. And the path of the activist is to <i>fight</i>, for as long and as hard as it takes, to effect change. Aaron had powerful friends, a powerful support network, and a keen sense of moral cause that put him in the right. That's how he got that support network of powerful friends and fellow activists in the first place.
+</p>
+<p>
+It is appropriate to write about Aaron on Martin Luther King day, because he too was <a href="http://www.africa.upenn.edu/Articles_Gen/Letter_Birmingham.html">a tireless activist for moral causes</a>.
+</p>
+<blockquote>
+I hope you are able to see the distinction I am trying to point out. In no sense do I advocate evading or defying the law, as would the rabid segregationist. That would lead to anarchy. <b>One who breaks an unjust law must do so openly, lovingly, and with a willingness to accept the penalty.</b> I submit that an individual who breaks a law that conscience tells him is unjust, and who willingly accepts the penalty of imprisonment in order to arouse the conscience of the community over its injustice, is in reality expressing the highest respect for law.
+</blockquote>
+<p>
+Let's be clear that the penalty in Aaron's case was <i>grossly</i> unfair, <a href="http://harpers.org/blog/2013/01/carmen-ortiz-strikes-out/">bordering on corrupt</a>. I've been a part of <a href="http://www.codinghorror.com/blog/2012/09/somebody-is-to-blame-for-this.html">exactly one trial</a>, but I can't even imagine having the full resources of the US Government brought to bear against me, with extreme prejudice, for a year or more. His defense was estimated to cost millions. The idea that such an engaged citizen would be forever branded a felon &ndash; serving at least some jail time and stripped of the most fundamental citizenship right, the ability to vote &ndash; must have weighed heavily on Aaron. And Aaron was no stranger to depresson, having written about it on his blog many times, even penning a public will of sorts on his blog all the way back in 2002.
+</p>
+<p>
+I think about <a href="http://knowyourmeme.com/memes/rage-quit">ragequitting</a> a lot.
+</p>
+<blockquote>
+Rage Quit, also seen as RageQuit in one word, is Internet slang commonly used to describe the act of suddenly quitting a game or chatroom after either an argument, extreme frustration, or loss of the game.
+</blockquote>
+<p>
+At least one user ragequits Stack Exchange every six months, because our rules are strict. Some people don't like rules, and can respond poorly when confronted by the rules of the game they choose to play. It came up often enough that we had to create even more rules to deal with it. I was forced to think about ragequitting.
+<p>
+</p>
+I was very angry with <a href="http://en.wikipedia.org/wiki/Mark_Pilgrim_(software_developer)#.22Disappearance.22_from_the_Internet">Mark Pilgrim</a> and <a href="http://en.wikipedia.org/wiki/Why_the_lucky_stiff">_why</a> for ragequitting the Internet, because they also took all their content offline &ndash; they got so frustrated that they took their ball and went home, so nobody else could play. How incredibly rude. Ragequitting is childish, a sign of immaturity. But it is another thing entirely to play the final move and take your own life. To declare the end of this game and all future games, <b>the end of ragequitting itself</b>.
+</p>
+<p>
+I say this not as a person who wishes to judge Aaron Swartz. I say it as a fellow gamer who has also considered playing the same move quite recently. To the point that I &ndash; like Aaron himself, I am sure &ndash; was actively researching it. But the more I researched, the more I thought about it, the more it <a href="http://www.cracked.com/article_15658_the-ten-minute-suicide-guide.html">felt like what it really was</a>: <i>giving up</i>. And the toll on friends and family would be unimaginably, unbearably heavy.
+</p>
+<p>
+What happened to Aaron was not fair. Not even a little. But <i>this is the path of the activist</i>. The greater the injustice, the greater wrong undone when you ultimately prevail. And I am convinced, absolutely and utterly convinced, that Aaron <i>would</i> have prevailed. He would have gone on to do so many other great things. It is our great failing that we did not provide Aaron the support network he needed to see this. All we can do now is <a href="http://www.plainsite.org/asymptote/index.html">continue the mission he started</a> and lobby for change to our <a href="http://www.forbes.com/sites/timothylee/2013/01/17/aaron-swartz-and-the-corrupt-practice-of-plea-bargaining/">corrupt government practices of forcing plea bargains</a>.
+</p>
+<p>
+It gets dark sometimes. I know it does. I'm right there with you. <b>But do not, under any circumstances, give anyone the satisfaction of seeing you ragequit.</b> They don't deserve it. Play other, better moves &ndash; and consider your long game.
+</p>
+<table> 
+<tr><td class="welovecodinghorror"> 
+[advertisement] <a href="http://careers.stackoverflow.com/" rel="nofollow">Stack Overflow Careers</a> matches the best developers (you!) with the best employers. You can search our <a href="http://careers.stackoverflow.com/jobs" rel="nofollow">job listings</a> or <a href="http://careers.stackoverflow.com/cv" rel="nofollow">create a profile</a> and even let employers find you.
+</td></tr> 
+</table> ]]></description>
+			<guid>http://www.codinghorror.com/blog/2013/01/the-end-of-ragequitting.html</guid>
+			<pubDate>Mon, 21 Jan 2013 13:10:12 -0800</pubDate>
+		</item>
+	
+		<item>
+			<title>Web Discussions: Flat by Design</title>
+			<link>http://www.codinghorror.com/blog/2012/12/web-discussions-flat-by-design.html</link>
+			<description><![CDATA[<p>
+It's been six years since I wrote <a href="http://www.codinghorror.com/blog/2006/11/discussions-flat-or-threaded.html">Discussions: Flat or Threaded?</a> and, despite a bunch of evolution on the web since then, my opinion on this has not fundamentally changed.
+</p>
+<p>
+If anything, my opinion has strengthened based on the observed data: <i>precious few threaded discussion models survive on the web</i>. Putting aside Usenet as a relic and artifact of the past, it is rare to find threaded discussions of any kind on the web today; for web discussion communities that are more than ten years old, the vast majority are flat as a pancake. 
+</p>
+<p>
+I'm game for trying anything new, I mean, I even tried <i>Google Wave</i>. But the more I've used threaded discussions of any variety, the less I like them. I find precious few redeeming qualities, while threading tends to break crucial parts of discussion like reading and replying in deep, fundamental, unfixable ways. I have yet to discover a threaded discussion design that doesn't eventually make me hate it, and myself.
+</p>
+<p>
+A part of me says this is software Darwinism in action: <b>threaded discussion is ultimately too complex to survive on the public Internet</b>.
+</p>
+<p>
+<a href="http://news.ycombinator.com/item?id=4887447"><img alt="Hacker-news-threading" title="Hacker-news-threading" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017d3ec46626970c-800wi" width="720" height="837" /></a><br />
+</p>
+<p>
+Before threaded discussion fans bring out their pitchforks and torches, I fully acknowledge that <i>aspects</i> of threading can be useful in certain specific situations. I will get to that. I know I'm probably wasting my time even attempting to say this, but please: keep reading before commenting. Ideally, read the <i>whole article</i> before commenting. Like Parappa, <a href="http://en.wikipedia.org/wiki/PaRappa_the_Rapper">I gotta believe!</a>
+</p>
+<p>
+Before I defend threaded discussion, let's enumerate the many problems it brings to the table:
+</p>
+<ol>
+<li><b>It's a tree</b>. <br/>
+<p>
+Poems about trees are indeed lovely, as Joyce Kilmer promised us, but <a href="http://www.codinghorror.com/blog/2005/03/trees-treeviews-and-ui.html">data of any kind represented as a tree &hellip; isn't</a>. Rigid hierarchy is generally not how the human mind works, and the strict parent-child relationship it enforces is particularly terrible for fluid human group discussion. Browsing a tree is complicated, because you have to constantly think about what level you're at, what's expanded, what's collapsed &hellip; there's always this looming existential crisis of <i>where the heck am I?</i> Discussion trees force me to spend too much time mentally managing that two-dimensional tree more than the underlying discussion.
+</p>
+<li><b>Where did that reply go?</b><br/>
+<p>In a threaded discussion, replies can arrive any place in the tree at any time. How do you know if there are new replies? Where do you find them? Only if you happen to be browsing the tree at the right place at the right time. It's annoying to follow discussions over time when new posts keep popping up anywhere in the middle of the big reply tree. And God help you if you accidentally reply at the wrong level of the tree; then you're suddenly talking to the wrong person, or maybe nobody at all. For that matter, it absolutely <i>kills</i> me that there might be amazing, insightful responses buried somewhere in the middle of a reply chain that I will never be able to find. Most of all, it just makes me want to leave and never come back.</p>
+
+<li><b>It pushes discussion off your screen</b>.<br/>
+<p>
+So the first reply is indented under the post. Fair enough; how else would you know that one post is a reply to another post? But this indentation game <i>doesn't ever end</i>. Reply long and hard enough and you've either made the content column impossibly narrow, or you've pushed the content to exit, stage right. That's how endless pedantic responses-to-responses ruin the discussion for everyone. I find that in the "indent everything to the right" game, there are no winners, only losers. It is natural to scroll <i>down</i> on the web, but it is utterly unnatural to scroll <i>right</i>. Indentation takes the discussion in the wrong direction.
+</p>
+<li><b>You're talking to everyone.</b><br/>
+<p>
+You think because you clicked "reply" and your post is indented under the person you're replying to, that your post is talking only to that person? That's so romantic. Maybe the two of you should get a room. A special, private room at the far, far, far, far, <i>far</i> right of that threaded discussion. This illusion that you are talking to one other person ends up harming the discussion for everyone by polluting the tree with these massive narrow branches that are constantly in the way.
+</p>
+<p>
+At an absolute minimum you're addressing everyone else in that discussion, but in reality, you're talking to anyone who will listen, for all time. Composing your reply as if it is a reply to just one person is a quaint artifact of a world that doesn't exist any more. Every public post you make on the Internet, reply or not, is actually talking to <i>everyone who will ever read it</i>. It'd be helpful if the systems we used for discussion made that clear, rather than maintaining this harmful pretense of private conversations in a public space.
+</p>
+<li><b>I just want to scroll down.</b>
+<p>
+Reddit (and to a lesser extent, Hacker News) are probably the best known examples of threaded comments applied to a large audience. While I find Reddit so much more tolerable than the bad old days of Digg, I can still barely force myself to wade through the discussions there, because it's so much darn <i>work</i>. As a lazy reader, I feel I've already done my part by deciding to enter the thread; after that all I should need to do is scroll or swipe down.</p>
+<p>Take <a href="http://www.reddit.com/r/pics/comments/14svrt/my_little_brother_had_an_interesting_night/">what's on the top of reddit right now</a>. It's a cool picture; who wouldn't want to meet Steve Martin and Morgan Freeman? But what's the context? Who is this kid? How did he get so lucky? To find out, I need to collapse and suppress dozens of random meaningless tangents, and the replies-to-tangents, by clicking the little minus symbol next to each one. So that's what I'm doing: reading a little, deciding that tangent is not useful or interesting, and clicking it to get rid of it. Then I arrive at the end and find out that information wasn't even in the topic, or at least I couldn't find it. I'm OK with scrolling down to find information and/or entertainment, to a point. What I object to is the menial labor of collapsing and expanding threaded portions of the topic as I read. Despite what the people posting them might think, those tangents aren't so terribly important that they're worth making me, and every other reader, act on them.</p>
+</ol>
+<p>
+Full bore, no-holds-barred threading is an unmitigated usability disaster for discussion, everywhere I've encountered it. But what if we didn't commit to this idea of threaded discussion quite so wholeheartedly? 
+</p>
+<p>
+The most important guidance for non-destructive use of threading is to <b>put a hard cap on the level of replies that you allow</b>. Although <a href="http://meta.stackoverflow.com/questions/92107/is-stack-overflow-a-forum">Stack Exchange is not a discussion system</a> &ndash; it's actually the <i>opposite</i> of a discussion system, which we have to explain to people all the time &ndash; we did allow, in essence, one level of threading. There are questions and answers, yes, but underneath each of those, in smaller type, are the comments. 
+</p>
+<p>
+<a href="http://wordpress.stackexchange.com/questions/74519/how-to-create-editable-blocks-of-text-for-the-homepage"><img alt="Stack-exchange-threading" title="Stack-exchange-threading" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017ee63983db970d-800wi" width="720" height="787" /></a>
+</p>
+<p>
+Now there's a bunch of hard-core discussion sociology here that I don't want to get into, like different rules for comments, special limitations for comments, only showing the top n of comments by default, and so forth. What matters is that we allow <b>one level of replies and that's it</b>. Want to reply to a comment? You can, but it'll be at the same level. You can go no deeper. This is by design, but remember: <i>Stack Exchange is not a discussion system</i>. It's a question and answer system. If you build your Q&amp;A system like a discussion system, it will devolve into Yahoo Answers, or even worse, Quora. Just kidding Quora. <a href="http://www.quora.com/What-did-Jesus-farts-probably-smell-like">You're great</a>.
+</p>
+<p>
+Would Hacker News be a better place for discussion if they capped reply level? Would Reddit? From my perspective as a poor, harried reader and very occasional participant, absolutely. There are many chronic problems with threaded discussion, but capping reply depth is the easiest way to take a giant step in the right direction.
+</p>
+<p>
+Another idea is to let posts bring their context with them. This is one of the things that Twitter, the company that always does everything wrong and succeeds anyway, gets &hellip; shockingly right out of the gate. When I view <a href="https://twitter.com/codinghorror/status/276413253209448449">one of my tweets</a>, it can stand alone, as it should. But it can also bring some context along with it on demand:
+</p>
+<p>
+<a href="https://twitter.com/codinghorror/status/276413253209448449"><img class="asset  asset-image at-xid-6a0120a85dcdae970b017ee6399d08970d image-full" alt="Twitter-threading" title="Twitter-threading" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017ee6399d08970d-800wi" width="600" height="961" /></a>
+</p>
+<p>
+Here you can see how <a href="https://twitter.com/codinghorror/status/276413253209448449">my tweet</a> can be  expanded with a direct link or click to show the necessary context for the conversation. But it'll only show three levels: the post, my reply to the post, and replies to my post. This idea that tweets &ndash; and thus, conversations &ndash; should be mostly standalone is not well understood, but it illustrates how Twitter got the <i>original concept</i> so fundamentally right. I guess that's why they can get away with the terrible execution.
+</p>
+<p>
+I believe <b>selective and judicious use of threading</b> is the only way it <i>can</i> work for discussion. You should be wary of threading as a general purpose solution for human discussions. Always favor simple, flat discussions instead.
+</p>
+<table> 
+<tr><td class="welovecodinghorror"> 
+[advertisement] How are you showing off your awesome? Create a <a href="http://careers.stackoverflow.com/cv" rel="nofollow">Stack Overflow Careers profile</a> and show off all of your hard work from Stack Overflow, Github, and virtually every other coding site. Who knows, you might even get recruited for a great <a href="http://careers.stackoverflow.com/jobs" rel="nofollow">new position</a>! 
+</td></tr> 
+</table>]]></description>
+			<guid>http://www.codinghorror.com/blog/2012/12/web-discussions-flat-by-design.html</guid>
+			<pubDate>Thu, 13 Dec 2012 17:24:02 -0800</pubDate>
+		</item>
+	
+		<item>
+			<title>The Organism Will Do Whatever It Damn Well Pleases</title>
+			<link>http://www.codinghorror.com/blog/2012/12/the-organism-will-do-what-it-damn-well-pleases.html</link>
+			<description><![CDATA[<p>
+In the go-go world of software development, we're so consumed with <a href="http://www.codinghorror.com/blog/2007/06/learning-or-learning-how-to-learn.html">learning new things</a>, so <a href="http://www.codinghorror.com/blog/2008/01/the-magpie-developer.html">fascinated with the procession of shiny new objects</a> that I think we sometimes lose sight of our history. I don't mean the big era-defining successes. Everyone knows those stories. I'm talking about the things we've tried before that &hellip; didn't quite work out. The failures. The also-rans. The noble experiments. The crazy plans.
+</p>
+<p>
+I'm all for <a href="http://www.codinghorror.com/blog/2009/02/dont-reinvent-the-wheel-unless-you-plan-on-learning-more-about-wheels.html">reinventing the wheel</a>, because it's one of the best ways to learn. But you shouldn't even <i>think</i> about reinventing a damn thing <b>until you've exhaustively researched every single last wheel, old or new, working or broken, that you can lay your hands on.</b> Do your homework.
+</p>
+<p>
+That's why I love unearthing stories like <a href="http://www.fudco.com/chip/lessons.html">The Lessons of Lucasfilm's Habitat</a>. It's basically World of Warcraft &hellip; in 1985.
+</p>
+<p>
+<blockquote>
+<p><a href="http://en.wikipedia.org/wiki/Habitat_(video_game)">Habitat</a> is "a multi-participant online virtual environment," a cyberspace.</p>
+<p><img alt="Habitat" title="Habitat" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017c3424c4d8970b-800wi" width="320" height="240" valign="right" /></p>
+<p>
+Each participant ("player") uses a home computer (Commodore 64) as an intelligent, interactive client, communicating via modem and telephone over a commercial packet-switching network to a centralized, mainframe host system. The client software provides the user interface, generating a real-time animated display of what is going on and translating input from the player into messages to the host. The host maintains the system's world model enforcing the rules and keeping each player's client informed about the constantly changing state of the universe.
+</p>
+</blockquote>
+<p>
+This was the dark ages of home computing. In 1985, that 64k of memory in a Commodore 64 was a <i>lot</i>. The entirety of Turbo Pascal 3.02 for DOS, released a year later in 1986, <a href="http://prog21.dadgum.com/116.html">was barely 40k</a>.
+</p>
+The very concept of a multiplayer virtual world of any kind &ndash; something we take for granted today, since every modern website is essentially a multiplayer game now &mdash; was incredibly exotic. Look at the painstaking explanation Lucasfilm had to produce to even get folks to understand what the heck Habitat was, and how it worked:
+</p>
+<iframe width="480" height="360" src="http://www.youtube.com/embed/VVpulhO3jyc" frameborder="0" allowfullscreen></iframe>
+<p>
+The technical information in <a href="http://www.fudco.com/chip/lessons.html">The Lessons of Lucasfilm's Habitat</a> is incredibly dated, as you'd expect, and barely useful even as trivia. But the sociological lessons of Habitat cut to the bone. They're as fresh today as they were in 1985. Computers have radically changed in the intervening 27 years, whereas people's behavior hasn't. At all. This particular passage hit home:
+</p>
+<blockquote>
+Again and again we found that activities based on often unconscious assumptions about player behavior had completely unexpected outcomes (when they were not simply outright failures). It was clear that we were not in control. The more people we involved in something, the less in control we were. <b>We could influence things, we could set up interesting situations, we could provide opportunities for things to happen, but we could not predict nor dictate the outcome.</b> Social engineering is, at best, an inexact science, even in proto-cyberspaces. Or, as some wag once said, "in the most carefully constructed experiment under the most carefully controlled conditions, the organism will do whatever it damn well pleases."
+</blockquote>
+<p>
+Even more specifically:
+</p>
+<blockquote>
+Propelled by these experiences, we shifted into a style of operations in which we let the players themselves drive the direction of the design. This proved far more effective. <b>Instead of trying to push the community in the direction we thought it should go, an exercise rather like herding mice, we tried to observe what people were doing and aid them in it.</b> We became facilitators as much as designers and implementors. This often meant adding new features and new regions to the system at a frantic pace, but almost all of what we added was used and appreciated, since it was well matched to people's needs and desires. As the experts on how the system worked, we could often suggest new activities for people to try or ways of doing things that people might not have thought of. In this way we were able to have considerable influence on the system's development in spite of the fact that we didn't really hold the steering wheel -- more influence, in fact, than we had had when we were operating under the delusion that we controlled everything.
+</blockquote>
+<p>
+That's exactly what I was trying to say in <a href="http://www.codinghorror.com/blog/2012/02/listen-to-your-community-but-dont-let-them-tell-you-what-to-do.html">Listen to Your Community, But Don't Let Them Tell You What to Do</a>. Unfortunately, because I hadn't read this essay until a few months ago, I figured this important lesson out <i>25 years later</i> than Randy Farmer and Chip Morningstar. So many Stack Overflow features were the direct result of observing what the community was doing, then attempting to aid them in it:
+</p>
+<ul>
+<li>We noticed early in the Stack Overflow beta that users desperately wanted to reply to each other, and were cluttering up the system with "answers" that were, well, not answers to the question. Rather than chastize them for doing it wrong &ndash; <i>stupid users!</i> &ndash; we added the commenting system to give them a method of annotating answers and questions for clarifications, updates, and improvements.<br/><br/>
+<li>I didn't think it was necessary to have a place to discuss Stack Overflow. And I was &hellip; kind of a jerk about it. The community was on the verge of creating a phpBB forum instance to discuss Stack Overflow. Faced with a nuclear ultimatum, I relented, and you know what? <a href="http://www.codinghorror.com/blog/2009/07/meta-is-murder.html">They were right</a>. And I was wrong.<br/><br/>
+<li>The community came up with an interesting convention for <a href="http://blog.stackoverflow.com/2009/04/handling-duplicate-questions/">handling duplicate questions</a>, by manually editing a blockquote into the top of the question with a link to the authoritative question that it was a duplicate of. This little user editing convention eventually became the template for the official implementation.
+</ul>
+<p>
+I could go on and on, but I won't bore you. I'd say for every 3 features we introduced on Stack Overflow, at least two of them came more or less directly from observing the community, then trying to run alongside them, building tools that <b>helped them do what they wanted to do with less fuss and effort</b>. That was my job for the last four years. And I loved it, until I had to <a href="http://www.codinghorror.com/blog/2012/02/farewell-stack-exchange.html">stop loving it</a>.
+</p>
+<p>
+<a href="http://en.wikipedia.org/wiki/Randy_Farmer">Randy Farmer</a>, one of the primary designers of Habitat at Lucasfilm, went on to work on a bunch of things that you may recognize: with <a href="http://en.wikipedia.org/wiki/Douglas_Crockford#Career">Douglas Crockford</a> on JSON, The Sims Online, Second Life, Yahoo 360°, Yahoo Answers, Answers.com, and so forth. He eventually condensed some of his experience into a book, <a href="http://www.amazon.com/dp/059615979X/?tag=codihorr-20">Building Web Reputation Systems</a>, which I bought in April 2011 as a Kindle edition. I didn't know who Mr. Farmer was at this time. I just saw a new O'Reilly book on an area of interest, and I thought I'd check it out.
+</p>
+<p>
+<a href="http://www.amazon.com/dp/059615979X/?tag=codihorr-20"><img  alt="Building-web-reputation-systems" title="Building-web-reputation-systems" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017d3e54363b970c-800wi" width="400" height="525" /></a>
+</p>
+<p>
+As the co-founder of Stack Overflow, I know a thing or two about web reputation systems! Out of curiosity, I looked up the author on my own site. And <a href="http://stackoverflow.com/users/523113/f-randall-farmer">I found him</a>, with a <i>tiny</i> reputation. So I sent this friendly jibe on Twitter:
+</p>
+<p>
+<a href="https://twitter.com/frandallfarmer/status/57612082752925696"><img alt="pff, look at @frandallfarmer's tiny rep! look at it!" title="pff, look at @frandallfarmer's tiny rep! look at it!" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017d3e5422dd970c-800wi" width="643" height="335" /></a>
+</p>
+<p>
+But the last laugh was on Randy, as it should be, because I didn't realize he had over <a href="http://rpg.stackexchange.com/users/810/f-randall-farmer">6,000 reputation</a> on <a href="http://rpg.stackexchange.com">rpg.stackexchange.com</a>. Turns out, Randy Farmer was already an avid Stack Exchange user. And, as you might guess given his background, a rather <i>expert</i> Stack Exchange user at that. The Stack Exchange ruleset is complex, strict, and requires discipline to understand. Kind of like.. maybe a <i>certain role playing game</i>, if you will.
+</p>
+<p>
+<a href="http://www.reddit.com/r/rpg/comments/xiwir/about_30_years_ago_my_dad_had_his_first_edition/"><img alt="Advanced-dungeons-and-dragons" title="Advanced-dungeons-and-dragons" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017ee5cb84ec970d-800wi" width="500" height="555" /></a>
+</p>
+<p>
+Randy is the sort of dad who <a href="http://www.reddit.com/r/rpg/comments/xiwir/about_30_years_ago_my_dad_had_his_first_edition/">had his first edition Dungeons &amp; Dragons books bound into a single leather tome and handed it down to his son as a family heirloom</a>. How awesome is that?
+</p>
+<p>
+If we've learned anything in the last 25 years since Habitat, it is that <b>people are the source of, and solution to, all the problems you'll run into when building social software</b>. Are you looking to (dungeon) master the art of guiding and nudging your online community through their collective adventure, without violating the continuity of your own little universe? If so, you could do a whole heck of lot worse than reading <a href="http://www.amazon.com/dp/059615979X/?tag=codihorr-20">Building Web Reputation Systems</a> and following <a href="https://twitter.com/frandallfarmer">@FRandallFarmer</a> on Twitter. 
+</p>
+<table> 
+<tr><td class="welovecodinghorror"> 
+[advertisement] Hiring developers? Post your open positions with <a href="http://careers.stackoverflow.com" rel="nofollow">Stack Overflow Careers</a> and reach over 20MM awesome devs already on Stack Overflow. Create <a href="http://careers.stackoverflow.com/jobs/post" rel="nofollow"> your satisfaction-guaranteed job listing</a> today! 
+</td></tr> 
+</table>]]></description>
+			<guid>http://www.codinghorror.com/blog/2012/12/the-organism-will-do-what-it-damn-well-pleases.html</guid>
+			<pubDate>Sat, 01 Dec 2012 01:28:35 -0800</pubDate>
+		</item>
+	
+		<item>
+			<title>For a Bit of Colored Ribbon</title>
+			<link>http://www.codinghorror.com/blog/2012/11/for-a-bit-of-colored-ribbon.html</link>
+			<description><![CDATA[<p>
+For the last year or so, I've been getting these two page energy assessment reports in the mail from Pacific Gas & Electric, our California utility company, comparing our household's energy use to those of the houses around us.
+<p>
+<p>
+Here's the relevant excerpts from the latest report; click through for a full-page view of each page.
+</p>
+<p>
+<a href="http://www.codinghorror.com/.a/6a0120a85dcdae970b017d3e2b150d970c-pi"><img  alt="Pge-page-1-small" title="Pge-page-1-small" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017c33fc34b6970b-800wi" width="720" height="293" style="border: 1px solid silver" /></a>
+</p>
+<p>
+<a href="http://www.codinghorror.com/.a/6a0120a85dcdae970b017d3e2b11b4970c-pi"><img  alt="Pge-page-2-small" title="Pge-page-2-small" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017c33fc369f970b-800wi" width="720" height="261" style="border: 1px solid silver"  /></a>
+</p>
+<p>
+These poor results are particularly galling because I go far out of my way to Energy Star all the things, I use LED light bulbs just about everywhere, we set our thermostat appropriately, and we're <i>still</i> getting crushed. I have no particular reason to care about this stupid energy assessment report showing our household using 33% more energy than similar homes in our neighborhood. <b>And yet&hellip; I must win this contest</b>. I can't let it go.
+</p>
+<ul>
+<li>Installed a <a href="http://www.amazon.com/dp/B009GDHYPQ/?tag=codihorr-20">Nest 2.0 learning thermostat</a>.
+<li>I made sure every last bulb in our house that gets any significant use is LED. Fortunately there are some pretty decent <a href="http://www.amazon.com/dp/B0064AE2K4/?tag=codihorr-20">$16 LED bulbs on Amazon now</a> offering serviceable 60 watt equivalents at 9 watt, without too many early adopter LED quirks (color, dimming, size, weight, etc).
+<li>I even put <a href="http://www.amazon.com/dp/B004UGPUUK/?tag=codihorr-20">appliance LED bulbs</a> in our refrigerator and freezer.
+<li>Switched to a <a href="http://www.amazon.com/dp/B000LV7W4K/?tag=codihorr-20">low-flow shower head</a>.
+<li>Upgraded to a high efficiency tankless water heater, the <a href="http://www.noritz.com/commercial/products/commercial_products/ncc1991_series_condensing_tankless_water_heater/">Noritz NCC1991-SV</a>.
+<li>Nearly killed myself trying to source LED candelabra bulbs for the fixture in our dining room which has 18 of the damn things, and is used quite a bit now with <a href="http://www.codinghorror.com/blog/2011/10/on-parenthood.html">the twins</a> in the house. Turns out, 18 times any number &hellip; is still kind of a large number. In cash.
+</ul>
+<p>
+(Most of this has not helped much on the report. The jury is still out on the Nest thermostat and the candelabra LED bulbs, as I haven't had them long enough to judge. I'm gonna <a href="http://soundcloud.com/maddecent/sets/blood-bros-series/">defeat this thing, man!</a>)
+</p>
+<p>
+I'm ashamed to admit that it's only recently I realized that this technique &ndash; showing a set of metrics alongside your peers &ndash; is <i>exactly</i> the same thing we built at Stack Overflow and <a href="http://stackexchange.com">Stack Exchange</a>. Notice any resemblance on the user profile page here?
+</p>
+<p>
+<a href="http://www.codinghorror.com/.a/6a0120a85dcdae970b017d3e2b1611970c-800wi"><img class="asset  asset-image at-xid-6a0120a85dcdae970b017c33fc3a8c970b image-full" alt="Stack-overflow-user-page-small" title="Stack-overflow-user-page-small" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017c33fc3a8c970b-800wi" width="720" height="544" /></a>
+</p>
+<p>
+You've tricked me into becoming obsessed with understanding and reducing my household energy consumption. Something that not only benefits me, but also benefits the greater community and, more broadly, benefits the entire world. You've beaten me at my own game. Well played, Pacific Gas & Electric. <i>Well played</i>.
+</p>
+<a href="https://twitter.com/davetron5000/status/250692475088404481"><img alt="Davetron5000-tweet" title="Davetron5000-tweet" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017d3e2b40b1970c-800wi" width="571" height="318" /></a>
+<p>
+This peer motivation stuff, <a href="http://www.codinghorror.com/blog/2011/10/the-gamification.html">call it gamification if you must</a>, really works. That's why we do it. But these systems are like firearms: so powerful they're kind of dangerous if you don't know what you're doing. If you don't think deeply about <i>what</i> you're incentivizing, <i>why</i> you're incentivizing it, and the full ramifications of all emergent behaviors in your system, you may end up with &hellip; something darker. <a href="http://xoxco.com/clickable/i-love-my-chicken-wire-mommy">A lot darker</a>.
+</p>
+<blockquote>
+The key lesson for me is that our members became very thoroughly obsessed with those numbers. <b>Even though points on Consumating were redeemable for absolutely nothing, not even a gold star, our members had an unquenchable desire for them.</b> What we saw as our membership scrabbled over valueless points was that there didn't actually need to be any sort of material reward other than the points themselves. We didn't need to allow them to trade the points in for benefits, virtual or otherwise. It was enough of a reward for most people just to see their points wobble upwards. If only we had been able to channel that obsession towards something with actual value!
+</blockquote>
+<p>
+Since <a href="http://www.codinghorror.com/blog/2012/02/farewell-stack-exchange.html">I left Stack Exchange</a>, I've had a difficult time explaining what exactly it is I do, if anything, to people. I finally settled on this: what I do, what I'm best at, what I love to do more than anything else in the world, is <b>design massively multiplayer games for people who like to type paragraphs to each other</b>. I channel their obsessions &ndash; and mine &ndash; into something positive, something that they can learn from, something that creates wonderful reusable artifacts for the whole world. And that's what I still hope to do, because I have an endless well of obsession left.
+</p>
+<p>
+Just ask PG&E.
+</p>
+<table> 
+<tr><td class="welovecodinghorror"> 
+[advertisement] What's your next career move? <a href="http://careers.stackoverflow.com/" rel="nofollow">Stack Overflow Careers</a> has the best job listings from great companies, whether you're looking for opportunities at a startup or Fortune 500. You can search our <a href="http://careers.stackoverflow.com/jobs" rel="nofollow">job listings</a> or <a href="http://careers.stackoverflow.com/cv" rel="nofollow">create a profile</a> and let employers find you.
+</td></tr> 
+</table> 
+]]></description>
+			<guid>http://www.codinghorror.com/blog/2012/11/for-a-bit-of-colored-ribbon.html</guid>
+			<pubDate>Mon, 26 Nov 2012 01:11:30 -0800</pubDate>
+		</item>
+	
+		<item>
+			<title>Touch Laptops</title>
+			<link>http://www.codinghorror.com/blog/2012/11/touch-laptops.html</link>
+			<description><![CDATA[<p>
+I'm a little embarrassed to admit how much I like the <a href="http://www.microsoft.com/Surface/">Surface RT</a>. I wasn't expecting a lot when I ordered it, but after a day of use, I realized this was more than Yet Another Gadget. It might represent a <b>brave new world of laptop design</b>. How can you not love a laptop that lets you touch <a href="http://www.imdb.com/title/tt0070948/">Zardoz</a> to unlock it?
+</p>
+<p>
+<a href="http://www.imdb.com/title/tt0070948/"><img alt="Zardoz-surface-unlock" title="Zardoz-surface-unlock" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017d3dd3f093970c-800wi" width="700" /></a>
+</p>
+<p>
+(I'll leave the particular unlock gestures I chose to your imagination. Good luck <a href="http://www.codinghorror.com/blog/2012/09/computer-crime-then-and-now.html">hacking this password</a>, Mitnick!)
+</p>
+<p>
+I have <a href="http://www.codinghorror.com/blog/2012/09/the-last-pc-laptop.html">an ultrabook I like</a>, but the more I used the Surface, the more obsolete it seemed, because I couldn't touch anything on the screen. I found touch interactions on Surface highly complementary to the keyboard. Way more than I would have ever believed, because I lived through the terror that was Pen Computing. If you need precision, you switch to the mouse or touchpad &ndash; but given the increasing prevalence of touch-friendly app and web design, that's not as often as you'd think. Tablets are selling like hotcakes, and every day the world becomes a more touch friendly place, with simpler apps that more people can understand and use on basic tablets. This a good thing. But this also means <b>it is only a matter of time before all laptops must be touch laptops</b>.
+</p>
+<p>
+I've become quite <s>obsessed</s> enamored with this touch laptop concept. I've used the Surface a <i>lot</i> since then. I own two, including the touch and type covers. I also impulsively splurged on a <a href="http://www.lenovo.com/products/us/laptop/ideapad/yoga/yoga-13/">Lenovo Yoga 13</a>, which is a more traditional laptop form factor.
+</p>
+<p>
+<a href="http://www.lenovo.com/products/us/laptop/ideapad/yoga/yoga-13/">
+<img  alt="Yoga-13-rotation" title="Yoga-13-rotation" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017c33b92a5d970b-800wi" width="700" height="575" /></a><br />
+</a>
+</p>
+<p>
+One of the primary criticisms of the Surface RT is that, since it is an ARM based Tegra 3 device, it does not run traditional x86 apps. That's likely also why it comes with a bundled version of Office 2013. Well, the Yoga 13 resolves that complaint, because it's a Core i5 Ivy Bridge machine. But there is a cost for this x86 compatibility: 
+</p>
+<table cellpadding=2 cellspacing=2 width="500">
+<tr>
+  <td>&nbsp;</td><td><b>Surface RT</b></td><td><b>Surface Pro</b></td><td><b>Yoga 13</b></td>
+</tr>
+<tr>
+  <td>weight</td><td>1.5 lb</td><td>2.0 lb</td><td>3.4 lb</td>
+</tr>
+<tr>
+  <td>volume</td><td>27"</td><td>39"</td><td>78"</td>
+</tr>
+<tr>
+  <td>runtime</td><td>8 hr</td><td>6? hr</td><td>5.5 hr</td>
+</tr>
+<tr>
+  <td>display</td><td>10.6" 1366&times;768</td><td>10.6" 1920&times;1080</td><td>13.3" 1600&times;900</td>
+</tr>
+<tr>
+  <td>memory</td><td>2 GB / 32 GB</td><td>4 GB / 64 GB</td><td>4 GB / 128 GB</td>
+</tr>
+<tr>
+  <td>price</td><td>$599</td><td>$999</td><td>$999</td>
+</tr>
+</table>
+</p>
+<p>
+The size comparison isn't entirely fair, since the Yoga is a 13.3" device, and the Surface is a 10.6" device. But Surface Pro has x86 internals and is otherwise as identical to the Surface RT as Microsoft could possibly make it, and it's still 44% larger and 33% heavier. <b>Intel inside comes at a hefty cost in weight, battery life, and size</b>.
+</p>
+<p>
+You do get something for that price, though: compatibility with the vast library of x86 apps, and speed. The Yoga 13 is <i>absurdly</i> fast by tablet standards. Its Sunspider score is approximately 150 ms, compared to my iPad 4 at 738 ms, and the Surface RT at 1036 ms. Five hours of battery life might not seem like such a bad tradeoff for <i>six times the performance</i>.
+</p>
+<p>
+I like the Yoga 13 a lot, and it is getting <a href="http://www.engadget.com/2012/11/15/lenovo-ideapad-yoga-13-review/">deservedly good reviews</a>. Some reviewers think it's the <a href="http://www.popsci.com/gadgets/article/2012-11/lenovo-yoga-13-review-windows-8-laptop-you-should-buy">best Windows 8 laptop</a> available right now. It is a fine replacement for my ultrabook, and as long as you <a href="http://forums.lenovo.com/t5/IdeaPad-IdeaTab-Slate-Tablets/Ideapad-Yoga-hard-disk-allocation/m-p/913425#M13007">fix the brain-damaged default drive partitioning</a>, scrape off the handful of stickers on it, and uninstall the few pre-installed craplets, it is eminently recommendable. You can also easily <a href="http://www.youtube.com/watch?v=Z5uCooHm4kw">upgrade it from 4 GB to 8 GB</a> of RAM for about $40.
+</p>
+<p>
+But there were things about the practical use of a touch laptop, subtle things that hadn't even occurred to me until I tried to sit down and use one for a few hours, that made me pause:
+</p>
+<ol>
+<li><b>The screen bounces when you touch it</b>. Maybe I just have hulk-like finger strength, but touching a thin laptop screen tends to make it bounce back a bit. That's &hellip; exactly what you <i>don't</i> want in a touch device. I begin to understand why the Surface chose its "fat screen, thin keyboard" design rather than the traditional "thin screen, fat keyboard" of a laptop. You need the inertia on the side you're touching. The physics of touching a thin, hinged laptop screen are never going to be particularly great. Yes, on the Yoga I can wrap the screen around behind the keyboard, or even prop it up like a tent &ndash; but this negates the value of the keyboard which is the biggest part of the touch laptop story! If I wanted a keyboardless tablet, I'd use one of the four I have in the house already. And the UPS guy just delivered a Nexus 10.<br/><br/>
+
+<li><b>A giant touchpad makes the keyboard area too large</b>. On a typical laptop, a Texas size touchpad makes sense. On a touch laptop, giant touchpads are problematic because they push the screen even farther away from your hand. This may sound trivial, but it isn't. A ginormous touchpad makes every touch interaction you have that much more fatiguing to reach. I now see why the Surface opted for a tiny touchpad on its touch and type covers. A touchpad should be a method of last resort on a touch laptop anyway, because touch is more convenient, and if you need true per-pixel precision work, you'll plug in a mouse. Have I mentioned how convenient it is to have devices that accept standard USB mice, keyboards, drives, and so on? Because it is.<br/><br/>
+
+<li><b>Widescreen is good for keyboards, but awkward for tablets</b>. A usable keyboard demands a certain minimum width, so widescreen it is; all touch laptops are going to be widescreen by definition. You get your choice between ultra wide or ultra tall. The default landscape mode works great, but rotating the device and using it in portrait mode makes it <i>super</i> tall. On a widescreen device, portrait orientation becomes a narrow and highly specialized niche. It's also <i>very</i> rough on lower resolution devices; neither the 1366&times;768 Surface RT nor the 1600&times;900 Yoga 13 really offer enough pixels on the narrow side to make portrait mode usable. You'd need a true retina class device to make portrait work in widescreen. I began to see why the iPad was shipped with a 4:3 display and not a 16:9 or 16:10 one, because that arrangement is more flexible on a tablet. I frequently use my iPad 4 in either orientation, but the Yoga and Surface are only useful in landscape mode except under the most rare of circumstances.<br/><br/>
+
+<li><b>About 11 inches might be the maximum practical tablet size</b>. Like many observers, I've been amused by the race to produce the largest possible phone screen, resulting in 5" phablets that are <a href="http://gigaom.com/mobile/despite-name-phablets-to-be-big-sellers-208m-in-2015/">apparently quite popular</a>. But you'll also note that <a href="http://daringfireball.net/2012/10/ipad_mini">even the most ardent Apple fans</a> seem to feel that the 7" iPad mini is an inherently superior form factor to the 10" iPad. I think both groups are fundamentally correct: for a lot of uses, the 3.5" phone really is too small, and the 10" tablet really is too big. As a corollary to that, I'd say anything larger than the 10.6" Surface is <i>far</i> too large to use as a tablet. Attempting to use the 13.3" Yoga as a tablet is incredibly awkward, primarily because of the size. Even if the weight and volume were pushed down to imaginary Minority Report levels, I'm not sure I would want a 13.3" tablet on my lap or in my hands. There must be a reason the <a href="http://en.wikipedia.org/wiki/Letter_(paper_size)">standard letter page size</a> is 8&half; &times; 11", right?<br/><br/>
+
+<li><b>All-day computing, or, 10 hours of battery life</b>. The more devices I own, the more I begin to appreciate those that I can use for 8 to 10 hours before needing to charge them. There is truly something a little magical about that 10 hour battery life number, and I can now understand why Apple seemed to target 9-10 hours of battery life in their initial iPad and iPhone designs. A battery life of 4 to 6 hours is nothing to sneeze at, but &hellip; I feel anxiety about carrying the charger around, whether I've charged recently or not, and I worry over screen brightness and other battery maximization techniques. When I can safely go 8 to 10 hours, I figure that even if I use the heck out of the device &ndash; as much as any human being reasonably could in a single day &ndash; I'll still safely make it through and I can stick it in a charger before I go to bed. 
+
+</ol>
+<p>
+<p>
+To appreciate just how extreme portrait mode is on a widescreen tablet, experience it yourself:
+</p>
+<table>
+<tr>
+<td valign="top">
+<a href="http://www.codinghorror.com/.a/6a0120a85dcdae970b017d3de872f7970c-pi"><img alt="Yoga-13-landscape-small" title="Yoga-13-landscape-small" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017d3dd4960d970c-800wi" width="350" /></a>
+</td>
+<td valign="top">
+<a href="http://www.codinghorror.com/.a/6a0120a85dcdae970b017c33b9e3d6970b-pi"><img alt="Yoga-13-portrait-small" title="Yoga-13-portrait-small" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017ee549a179970d-800wi" width="350" /></a>
+</td>
+</tr>
+</table>
+<p>
+This isn't specific to touch laptops; it's a concern for all widescreen devices. I have the same problem with the taller iPhone 5. Because I now have to choose between super wide or super tall, it is a less flexible device in practice.
+</p>
+<p>
+The Yoga 13, if representative of the new wave of Windows 8 laptops, is a clear win even if you have no intention of ever touching your screen:
+</p>
+<ul>
+<li>It boots up incredibly fast, in a few seconds.
+<li>It wakes and sleeps incredibly fast, nearly instantaneously.
+<li>The display is a <a href="http://www.codinghorror.com/blog/2012/07/the-ips-lcd-revolution.html">high quality IPS model</a>.
+<li>A rotating screen offers a number of useful modes: presentation, (giant) tablet, standard laptop.
+<li>Touchpad and keyboard work fine; at the very least, they're no worse than the typical PC laptop to me.
+<li>Does the prospect of using Windows 8 frighten and disturb you? No worries, smash Windows+D on your keyboard immediately after booting and pretend you're using Windows 7.5. Done and done.
+</ul>
+</p>
+<p>
+It's a nice laptop. You could do far worse, and many have. In the end, <b><a href="http://www.lenovo.com/products/us/laptop/ideapad/yoga/yoga-13/">the Yoga 13</a> is just a nice laptop with a touchscreen slapped on it</b>. But the more I used the Yoga the more I appreciated the subtle design choices of Surface that make it a far better <i>touch</i> laptop. I kept coming back to how much I enjoyed using the Surface as the platonic ideal of what touch laptops should be.
+</p>
+<p>
+Yes, it is a bummer that <a href="http://www.microsoft.com/Surface/">the only currently available Surface</a> is ARM based and does not run any traditional Windows apps. It's easy to look at the x86 performance of the Yoga 13 and assume that Windows on ARM is a cute, temporary throwback to Windows NT on Alpha or MIPS which will never last, and understandably so. Do you see anyone running Windows on Alpha or MIPS CPUs today? But I'm mightily impressed with the Tegra 3 SOC (system-on-a-chip) that runs both the Surface RT and the Nexus 7. Upcoming Tegra releases, <a href="http://en.wikipedia.org/wiki/Tegra#Upcoming_releases">all named after superheroes</a>, promise <b>75 times</b> the performance of Tegra 2 by 2014. I can't quite determine how much faster Tegra 3 was than Tegra 2, but even if it is "only" ten times faster by 2014, that's &hellip; amazing.
+</p>
+<p>
+I think we're beginning to uncover the edges of a world where lack of x86 compatibility is no longer the kiss of death it used to be. It's unclear to me that Intel can ever reach equivalent performance per watt with ARM; Intel's ultra-low-end <a href="http://gigaom.com/mobile/intel-v-arm-the-chromebook-performance-battle/">Celeron 847 is twice as fast as the ARM A15</a>, but it's also <a href="http://ark.intel.com/products/56056/Intel-Celeron-Processor-847-2M-Cache-1_10-GHz">17 watts TDP</a>. In a land of ARM chips that pull an absolute maximum of 4 watts at peak, slapping Intel Inside will instantly double the size and weight of your device &ndash; or halve its battery life, your choice. Intel's been trying to turn the battleship, but with <a href="http://www.wired.com/business/2012/08/ff_intel/all/">very limited success so far</a>. Haswell, the successor to the Ivy Bridge CPUs in the Surface Pro and Yoga 13, only gets to 10 watts at idle. And Intel's long neglected Atom line, thanks to years of institutional crippling to avoid cannibalizing Pentium sales, is poorly positioned to compete with ARM today.
+</p>
+<p>
+Still, <b>I would not blame anyone for waiting on the <a href="http://www.microsoft.com/Surface/en-US/surface-with-windows-8-pro/home">Surface Pro</a></b>. A high performance, HD touch laptop in the Surface form factor that runs every x86 app you can throw at it is a potent combination &hellip; even if it is 44% larger and 33% heavier. 
+</p>
+<table> 
+<tr><td class="welovecodinghorror"> 
+[advertisement] <a href="http://careers.stackoverflow.com/" rel="nofollow">Stack Overflow Careers</a> matches the best developers (you!) with the best employers. You can search our <a href="http://careers.stackoverflow.com/jobs" rel="nofollow">job listings</a> or <a href="http://careers.stackoverflow.com/cv" rel="nofollow">create a profile</a> and even let employers find you.
+</td></tr> 
+</table> ]]></description>
+			<guid>http://www.codinghorror.com/blog/2012/11/touch-laptops.html</guid>
+			<pubDate>Mon, 19 Nov 2012 01:23:38 -0800</pubDate>
+		</item>
+	
+		<item>
+			<title>A SSD in Your Pocket</title>
+			<link>http://www.codinghorror.com/blog/2012/11/a-ssd-in-your-pocket.html</link>
+			<description><![CDATA[<p>
+I woke up a few days ago and realized I was still carrying <a href="http://www.codinghorror.com/blog/2010/08/whats-on-your-utility-belt.html">the same 32 GB USB flash drive</a> on my keychain that I purchased in 2010. I thought to myself, this is an unacceptable state of affairs. Totally. Unacceptable.
+</p>
+<p>
+It's been few years since I seriously looked at USB drive performance. Premium USB flash drives typically eke out <a href="http://www.codinghorror.com/blog/2008/06/large-usb-flash-drive-performance.html">about 10-20 MB per second</a>, strongly favoring reads, but I've recently purchased a number of inexpensive 4 GB USB drives that barely got to 4 MB per second. That's OK, since they were only intended as cheap <s><a href="http://www.codinghorror.com/blog/2005/02/the-floppy-drive-must-die.html">floppy drive</a></s> CD and DVD replacements. Based on that experience, I wasn't expecting much improvement in the status quo.
+</p>
+<p>
+USB 3.0 is finally becoming somewhat prevalent on PCs and Macs, so I figured I'd:
+</p>
+<ul>
+<li>Switch to a current-generation USB 3.0 flash drive.
+<li>Bump up to 64 GB storage this generation, one step over the 32 GB model I currently carry.
+<li>Optimistically hope against hope that they've gotten fast enough by now to get anywhere near USB 2.0 throughput limits.
+</ul>
+<p>
+I checked around and the <a href="http://www.amazon.com/dp/B004ZNA3UA/?tag=codihorr-20">Patriot Supersonic Magnum</a> got good reviews. The price seemed about right at $75 for a 64 GB device. So I bought one. I plugged it in to one of the USB 3.0 ports on my PC and &hellip;
+</p>
+<p>
+<img alt="Usb-drive-read" title="Usb-drive-read" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017ee50c0384970d-800wi" width="463" height="294" />
+</p>
+<p>
+<img alt="Usb-drive-write" title="Usb-drive-write" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017d3d96fccf970c-800wi" width="463" height="294" />
+</p>
+<p>
+Holy. Crap.
+</p>
+<p>
+<b>237 MB/s reads and 143 MB/s writes?</b> <i>Yes please!</i>
+</p>
+<p>
+Needless to say, this thing handily saturates a USB 2.0 connection at around 27 - 30 MB/sec but plug it into one of those blue USB 3.0 ports on newer Macs or PCs and prepare to feel like <a href="http://iconicphotos.wordpress.com/2010/05/31/blown-away-man/">the "blown away" guy in the Maxell ad</a>.
+</p>
+<p>
+I haven't run a full set of benchmarks on this guy, but the only downside I've noticed so far is that it is a bit chunkier in width than my previous USB flash drive. It might be a bit more to carry, and might not fit some USB ports depending on what's adjacent.
+</p>
+<p>
+<a href="http://www.amazon.com/dp/B004ZNA3UA/?tag=codihorr-20"><img alt="Patriot-magnum-64gb" title="Patriot-magnum-64gb" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017c33688c47970b-800wi" width="550" height="345" /></a>
+</p>
+<p>
+Now I feel like a total dork for continuing to carry around a 2010 era flash drive that I <i>thought</i> had decent performance at 20 MB/sec. Forget that noise. Now we can <b>darn near carry pocket solid state hard drives on our keychains!</b> Nobody told me, man! 
+</p>
+<p>
+So now I'm telling you. Enjoy.
+</p>
+<table> 
+<tr><td class="welovecodinghorror"> 
+[advertisement] What's your next career move? <a href="http://careers.stackoverflow.com/" rel="nofollow">Stack Overflow Careers</a> has the best job listings from great companies, whether you're looking for opportunities at a startup or Fortune 500. You can search our <a href="http://careers.stackoverflow.com/jobs" rel="nofollow">job listings</a> or <a href="http://careers.stackoverflow.com/cv" rel="nofollow">create a profile</a> and let employers find you.
+</td></tr> 
+</table> ]]></description>
+			<guid>http://www.codinghorror.com/blog/2012/11/a-ssd-in-your-pocket.html</guid>
+			<pubDate>Tue, 13 Nov 2012 00:21:24 -0800</pubDate>
+		</item>
+	
+		<item>
+			<title>Do You Wanna Touch</title>
+			<link>http://www.codinghorror.com/blog/2012/11/do-you-wanna-touch.html</link>
+			<description><![CDATA[<p>
+Traditional laptops may have reached an <a href="http://www.codinghorror.com/blog/2012/09/the-last-pc-laptop.html">evolutionary dead-end</a> (or, more charitably, a plateau), but it is an <i>amazing</i> time for things that &hellip; aren't quite traditional laptops.
+</p>
+<p>
+The Nexus 7 is <a href="http://www.theverge.com/2012/6/29/3125396/google-nexus-7-review">excellent</a>, the Nexus 10 <a href="http://www.wired.com/gadgetlab/2012/10/nexus-10-hands-on-google-samsung/">looks fantastic</a>, I can't wait to get my hands on the <a href="http://www.macrumors.com/2012/10/30/4th-generation-ipad-benchmarks-show-1-4ghz-dual-core-processor-1gb-of-ram/">twice-as-fast</a> iPad 4, the new Chromebooks are <a href="http://www.anandtech.com/show/6422/samsung-chromebook-xe303-review-testing-arms-cortex-a15">finally decent</a> and priced right, and then there's the <a href="http://www.theverge.com/2012/10/23/3540550/microsoft-surface-review">Microsoft Surface RT</a>. In short, <b>it is a fantastic time to be a <i>computer nerd</i>.</b>
+</p>
+<p>
+<a href="http://www.imdb.com/title/tt0088000/"><img alt="Revenge of the nerds" title="Revenge of the nerds" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017d3d2a90fd970c-pi" width="370" height="558" /></a>
+</p>
+<p>
+I <a href="http://www.codinghorror.com/blog/2007/01/if-loving-computers-is-wrong-i-dont-want-to-be-right.html">love computers</a>, always have, always will. <b>My strategy with new computing devices is simple: I buy 'em all, then try living with them.</b> The devices that fall away from me over time &ndash; the ones that gather dust, or that I forget about &ndash; are the ones I eventually get rid of. So long, Kindle Fire! I knew that the Nexus 7 was really working for me when I gave mine to my father as a spontaneous gift while he was visiting, then missed it sorely when waiting for the replacement to arrive. 
+</p>
+<p>
+As I use these devices, I've grown more and more sold on the idea that touch is going to dominate the next era of computing. <a href="http://www.codinghorror.com/blog/2012/10/the-pc-is-over.html">This reductionism is inevitable and part of the natural evolution of computers</a>. Remove the mouse. Remove the keyboard. Remove the monitor. Reducing a computer to its <i>absolute minumum</i> leads us inexorably, inevitably to the tablet (or, if a bit smaller, the phone). All you're left with is a flat, featureless slate that invites you to touch it. <b>Welcome to the future, here's your &hellip; rectangle.</b>
+</p>
+<p>
+<img  alt="tablets" title="tablets" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017ee4a07595970d-800wi" width="600" height="436" />
+</p>
+<p>
+I've stopped thinking of touch as some exotic, add-in technology contained in specialized devices. I belatedly realized that <a href="http://www.youtube.com/watch?v=XELpxApT8Kc">I love to touch computers</a>. And why not? We constantly point and gesture at everything in our lives, including our screens. It's completely natural to want to interact with computers by touching them. That's why the more unfortunate among us have <a href="http://www.codinghorror.com/blog/2008/05/cleaning-your-display-and-keyboard.html">displays covered in filthy fingerprints</a>. 
+</p>
+<p>
+Although I love my touch devices, one thing I've noticed is that <b>they are a major disincentive to writing actual paragraphs</b>. On screen keyboards get the job done, but if I have to scrawl more than a Twitter length reply to someone on a tablet or phone, it's so much effort that I just avoid doing it altogether, postponing indefinitely until I can be in front of a keyboard. By the time that happens I've probably forgotten what I wanted to say in the first place, or that I even needed to reply at all. Multiply that by millions or billions, and you have a whole generation technologically locked into a backwater of minimal communication. Yelp, for example, does <a href="https://twitter.com/codinghorror/status/249912609439088640">not allow posting reviews from their mobile app</a> because when they did, all they got was LOL OMG <i>raspberry</i> poop Emoji.
+</p>
+<p>
+<img alt="Omg-raspberry-poop" title="Omg-raspberry-poop" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017ee4a06941970d-800wi" width="326" height="122" />
+</p>
+<p>
+It's not good. In fact, it's a little scary. I realize that there are plenty of ways of creating content that don't involve writing, but writing is <a href="http://www.codinghorror.com/blog/2011/02/how-to-write-without-writing.html">pretty damn fundamental</a> to communication and civilization as we know it. Anything that adds a significant barrier to the act of placing words on a page is kind of dangerous &ndash; and a major regression from the world where every computer had a keyboard in front of it, inviting people to write and communicate with each other. So the idea that billions of people in the future will be staring at touchscreen computers, Instagramming and fingerpainting their thoughts to each other, leaves me with deeply mixed feelings. As Joey Hess <a href="http://joey.hess.usesthis.com/">said</a>:
+<p>
+<blockquote>If it doesn't have a keyboard, I feel that my thoughts are being forced out through a straw.</blockquote>
+</p>
+<p>
+When I pre-ordered the <a href="http://www.microsoft.com/surface/en-US/surface-with-windows-rt/home">Microsoft Surface RT</a>, I wasn't expecting much. This is a version one device from a company that has never built a computer before, running a <a href="http://www.codinghorror.com/blog/2012/07/betting-the-company-on-windows-8.html">brand new and controversial operating system</a>. On paper, it doesn't seem like a significant change from all the other tablets on the market, and its primary differentiating feature &ndash; the touch keyboard &ndash; can be viewed as merely flipping a regular laptop over, so the "fat" side is on the display rather than the keyboard.
+</p>
+<a href="http://www.microsoft.com/surface/en-US/surface-with-windows-rt/home"><img alt="Laptop vs. Surface" title="Laptop vs. Surface" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017d3d2aadd6970c-800wi" width="600" height="239" /></a>
+</p>
+<p>
+Surface is just like the first iPad in that it has all the flaws and rough edges you'd expect in a version one device. But it is also like the first iPad in that <b>there is undeniably the core of something revelatory and transformative here &ndash; a vision of the future of computing that <i>doesn't</i> sacrifice either keyboard or touch.</b>  
+</p>
+<p>
+Reviewers think Surface is intended to be a tablet killer, but it isn't. It's a laptop killer. After living with the Surface RT for a few days now, I'm convinced that this form factor is the replacement and way forward for the stagnant laptop. I can't even remember the last time I was this excited about a computer. The more I use it, the more I think that touch plus keyboard is the future of all laptops.
+</p>
+<p>
+How wonderful it is to flip open the Surface and quickly type a 4 paragraph email response when I need to. How wonderful it is to browse the web and touch whatever I want to. And switching between the two modes of interaction &ndash; sometimes typing, sometimes touching &ndash; is completely natural. Remember when I talked about <a href="http://www.codinghorror.com/blog/2008/03/revisiting-keyboard-vs-the-mouse-pt-1.html">two-fisted computing</a>, referring to the mouse and keyboard working in harmony? With Surface, I found that also applies to touch. In spades.
+</p>
+<p>
+<a href="http://www.microsoft.com/surface/en-US/surface-with-windows-rt/home"><img alt="The Surface RT in my lap" title="The Surface RT in my lap" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017d3d2b3765970c-800wi" width="700" height="525" /></a>
+</p>
+<p>
+This isn't a review, per se, but let me get into a few specifics:
+<ul>
+<li>Yes, it is ridiculous that the keyboard cover is not included in the base Surface, as the near-perfect integration of keyboard with touch is the whole story here. Don't even <i>consider</i> buying a Surface without the touch keyboard cover. Within an hour or so I was hitting 80% of my regular typing speed on it, and it's firm enough to be used on a lap without too much loss of accuracy. Astonishingly, the tiny fabric touchpad is quite good, better than the ones I've used on many laptops. Which probably says more about the sad state of the PC ecosystem than it does about Surface, but still.
+<li>Yeah, yeah, it doesn't run x86 apps. So your beloved copy of Windows Landscape Designer 1998 won't run on Surface RT. You'll need to wait a few months for Surface Pro to do that, but you'll pay the Intel Premium&trade; in price, battery life, and size. Rumor has it that Intel will get their act together with Haswell, and finally be competitive with ARM in price, performance, and power consumption, but I'll believe that when I see it.
+<li>The hardware design is beyond reproach; I'd even argue it's <i>better</i> than Apple quality hardware design. Unless you're required by God to hate all things touched by Microsoft, There's no way you could handle a Surface and not think that this is a genuinely well made <i>thing</i>.
+<li>The default Surface mail application is an embarrassment and everyone associated with it should be fired. Android and iOS both have decent default mail apps, as well they should, because email is bedrock. Not having this right really hurts. If Microsoft doesn't get their A Team "hey dummies, all you have to do is just copy Sparrow already" team on that soon, they'll be sorry.
+<li>Many of the native applications currently available run poorly on Surface RT due to lack of optimization and testing for the ARM platform versus x86. Probably not terribly different from the iPad 1 on launch day, but it remains to be seen how quickly that will get resolved.
+<li>The web browser is stellar and a model of how the Internet should work on a tablet. You are almost always in fullscreen mode, swiping around with nothing but content on your screen, the way it should be. However, back button performance is bizarrely slow, and the way IE10 handles web hovers is poor, much worse than Mobile Safari and Chrome. Try upvoting a comment on Stack Overflow to see what I mean.
+</ul>
+</p>
+<p>
+Notice how the 2010 iPad 1 is already obsolete? Expect the same thing with the <a href="http://www.microsoft.com/surface/en-US/surface-with-windows-rt/home">Surface RT</a>. It's a fascinating glimpse into the future, but it'll be totally utterly obsolete in 2 years. Do not buy this device expecting longevity. Buy it because you want to see tomorrow today.
+</p>
+<p>
+The received wisdom about touchscreen interaction with computers was that <a href="http://www.wired.com/gadgetlab/2010/10/gorilla-arm-multitouch/">it didn't work</a>. That you'd get "gorilla arm". That's why we had to have special tablet devices. But <b>Surface proves that's not true; typing and touching are <i>spectacularly</i> compatible, at least for laptops.</b> And I'm beginning to wonder about my desktop a little, because lately I'm starting to I think I wanna touch that, too.
+</p>
+<table> 
+<tr><td class="welovecodinghorror"> 
+[advertisement] How are you showing off your awesome? Create a <a href="http://careers.stackoverflow.com/cv" rel="nofollow">Stack Overflow Careers profile</a> and show off all of your hard work from Stack Overflow, Github, and virtually every other coding site. Who knows, you might even get recruited for a great <a href="http://careers.stackoverflow.com/jobs" rel="nofollow">new position</a>! 
+</td></tr> 
+</table>]]></description>
+			<guid>http://www.codinghorror.com/blog/2012/11/do-you-wanna-touch.html</guid>
+			<pubDate>Thu, 01 Nov 2012 03:14:41 -0700</pubDate>
+		</item>
+	
+		<item>
+			<title>The Future of Markdown</title>
+			<link>http://www.codinghorror.com/blog/2012/10/the-future-of-markdown.html</link>
+			<description><![CDATA[<p>
+Markdown is a <a href="http://www.codinghorror.com/blog/2008/05/is-html-a-humane-markup-language.html">simple little humane markup language</a> based on time-tested plain text conventions from the last 40 years of computing.
+</p>
+<table style="width:800px">
+<tr>
+<td style="padding-bottom:10px">Meaning, if you enter this&hellip;</td>
+<td style="padding-bottom:10px">&hellip;you get this!</td>
+</tr>
+<tr>
+<td valign="top" style="width:350px; font-size:80%">
+<pre style="width:350px">
+Lightweight Markup Languages
+============================
+
+According to **Wikipedia**:
+
+> A [lightweight markup language](http://is.gd/gns)
+is a markup language with a simple syntax, designed 
+to be easy for a human to enter with a simple text 
+editor, and easy to read in its raw form. 
+
+Some examples are:
+
+* Markdown
+* Textile
+* BBCode
+* Wikipedia
+
+Markup should also extend to _code_: 
+
+    10 PRINT "I ROCK AT BASIC!"
+    20 GOTO 10
+</pre>
+</td>
+<td valign="top" style="width:430px; font-size:80%">
+<h2>Lightweight Markup Languages</h2>
+<p>According to <b>Wikipedia</b>:</p>
+<blockquote style="margin-left:10px">
+A <a href="http://en.wikipedia.org/wiki/List_of_lightweight_markup_languages">lightweight markup language</a> is a markup language with a simple syntax, designed to be easy for a human to enter with a simple text editor, and easy to read in its raw form. 
+</blockquote>
+<p>
+Some examples are:
+</p>
+<ul>
+<li>Markdown</li>
+<li>Textile</li>
+<li>BBCode</li>
+<li>Wikipedia</li>
+</ul>
+<p>
+Markup should also extend to <i>code</i>:
+</p>
+<pre style="width:350px; margin:0px;">
+10 PRINT &quot;I ROCK AT BASIC!&quot;
+20 GOTO 10
+</pre>
+</td>
+</tr>
+</table>
+<p>
+You can think of Markdown as a radically simplified and far more human readable form of HTML. <b>I have grown to love Markdown over the last few years.</b> If you're a programmer of any shape, size, or color, you can't really <i>avoid</i> using Markdown, as it's central to both GitHub and Stack Overflow. For that matter, my new project uses Markdown, too.
+</p>
+<p>
+Markdown is a wonderful tool, but it does suffer a bit from <a href="http://www.codinghorror.com/blog/2009/12/responsible-open-source-code-parenting.html">lack of project leadership</a>. The so-called "spec" is anything but, and there are dozens of different flavors of Markdown out there, all with differences in the way they behave. While they are broadly compatible, Stack Overflow and GitHub have both tweaked Markdown in ways that can trip you up if you're familiar with one but not the other; compare <a href="http://github.github.com/github-flavored-markdown/">GitHub Flavor</a> with <a href="http://stackoverflow.com/editing-help">Stack Overflow Flavor</a>. 
+</p>
+<p>
+That's why I was so excited to get this email from David Greenspan a few days ago:
+</p>
+<blockquote>
+<p>I'm the creator of <a href="http://etherpad.com/">EtherPad</a> (a collaborative WYSIWYG editor), now working at <a href="http://meteor.com/">Meteor</a>. At Meteor, we're trying to "pave the web" for developers by writing better components. For example, we just released universal login buttons that talk over WebSockets and are wired into the users table of the app's database. Since Markdown is increasingly ubiquitous for writing content, it's going to be part of the Meteor toolchain.  I wouldn't be surprised if we end up releasing a component <a href="http://code.google.com/p/pagedown/">like Stack Overflow's editor</a>, with the full "Meteor" standard of code quality, so that no one has to roll their own again.  Today, we use Markdown in our API docs generation, and we're going to be writing more and more content in it -- which is a scary thought.</p>
+<p>I think you and I share some concern (horror?) about <a href="http://www.codinghorror.com/blog/2009/12/responsible-open-source-code-parenting.html">Markdown's lack of spec and tests</a>. The code is ugly to boot.  Extending or customizing Markdown is tricky (we already have some hacks and they are terrible), and I worry about "bit rot" of content if the format doesn't have a spec.  I'm evaluating the possibility of starting over with a new implementation coupled with a real spec and test suite, and I've been thinking a lot about how to parse a language like Markdown in a principled way.  I'm pretty fearless about parsers, by the way; I wrote a <a href="http://jsparse.meteor.com/">full ECMAScript parser</a> in a week as a side project.</p>
+<p>I want this new language &ndash; working name "Rockdown" &ndash; to be seen as Markdown with a spec, and therefore only deviate from Markdown's behavior in unobtrusive ways.  It should basically be a replacement that paves over the problems and ambiguities in Markdown.  I'm trying to draw a line between what behavior is important to preserve and what behavior isn't.</p>
+</blockquote>
+</p>
+<p>
+I was excited because, like David, I freaking <i>love</i> Markdown. I love it so much that I want to see it succeed and flourish over the next 20 years. I believe the best way to achive that goal is for the most popular sites using Markdown to band together and take ownership of Markdown as a standard. <b>I propose that Stack Exchange, GitHub, Meteor, Reddit, and any other company with lots of traffic and a strategic investment in Markdown, all work together to come up with an official Markdown specification, and standard test suites to validate Markdown implementations.</b> We've all been working at cross purposes for too long, accidentally fragmenting Markdown while popularizing it.
+</p>
+<p>
+Like any dutiful and well-meaning suitor, we first need to ask permission for this courtship from the parents. So <b>I'm asking you, <a href="http://en.wikipedia.org/wiki/John_Gruber">John Gruber</a>: as the original creator of Markdown, will you bless this endeavor?</b> Also, as a totally unreleated aside, have I mentioned what a <i>huge</i> <a href="http://newyork.yankees.mlb.com">Yankees</a> fan I am? <a href="http://en.wikipedia.org/wiki/Derek_Jeter">Derek Jeter</a> is one of the all-time greats.
+</p>
+<img alt="Yankees_logo" title="Yankees_logo" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017ee4727df7970d-800wi" width="225" height="252" />
+<p>
+I realize that the devil is in the details, but for the most part what I want to see in a <b>Markdown Standard</b> is this:
+</p>
+<ol>
+<li>A standardization of the existing core Markdown conventions, <a href="http://daringfireball.net/projects/markdown/">as documented by John Gruber</a>, in a formal language specification.
+<li>Make the three most common real world usage "gotchas" in Markdown choices with saner defaults: intra-word emphasis (off), auto-hyperlinking (on), automatic return-based linebreaks (on).
+<li>A formal set of tests anyone can use to validate a Markdown implementation.
+<li>Some cleanup and tweaks for ambiguous edge cases that exist in Markdown due to the lack of a formal specification.
+<li>A registry of known flavor variants, with some possible future lobbying to potentially add <i>only</i> the most widely and strongly supported variants (I am thinking of the GitHub style code blocks which are quite nice) to future versions of Markdown. 
+</ol>
+<p>
+And that's it, really. I don't want to extend Markdown by adding tons of crazy new functionality, or radically change the way it currently works, or anything like that. I'd be opposed to such changes. I just want to solidify and standardize the simple, useful version of Markdown that is working so well for everyone right now. I want there to be an unambiguous, basic standard that everyone using Markdown can expect to work in the same way across all web sites in the world when they begin typing.
+</p>
+<p>
+<a href="http://dcurt.is/the-markdown-mark"><img alt="Markdown mark" title="Markdown mark" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017d3cfd6d03970c-800wi" width="500" height="148" /></a>
+</p>
+<p>
+I'd really prefer not to fork the language; I'd much rather collectively help carry the banner of Markdown forward into the future, <b>with the blessing of John Gruber and in collaboration with other popular sites that use Markdown.</b>
+</p>
+<p>
+So &hellip; who's with me?
+</p>
+<table> 
+<tr><td class="welovecodinghorror"> 
+[advertisement] <a href="http://careers.stackoverflow.com/" rel="nofollow">Stack Overflow Careers</a> matches the best developers (you!) with the best employers. You can search our <a href="http://careers.stackoverflow.com/jobs" rel="nofollow">job listings</a> or <a href="http://careers.stackoverflow.com/cv" rel="nofollow">create a profile</a> and even let employers find you.
+</td></tr> 
+</table> ]]></description>
+			<guid>http://www.codinghorror.com/blog/2012/10/the-future-of-markdown.html</guid>
+			<pubDate>Thu, 25 Oct 2012 16:43:52 -0700</pubDate>
+		</item>
+	
+		<item>
+			<title>Judging Websites</title>
+			<link>http://www.codinghorror.com/blog/2012/10/judging-websites.html</link>
+			<description><![CDATA[<p>
+I was invited to judge the <a href="http://railsrumble.com/">Rails Rumble</a> last year, but was too busy to participate. When they extended the offer again this year, I happily accepted. 
+</p>
+<p>
+<blockquote>
+<p>The <a href="http://railsrumble.com/">Rails Rumble</a> is a distributed programming competition where teams of one to four people, from all over the world, have 48 hours to build an innovative web application, with Ruby on Rails or another Rack-based Ruby web framework. After the 48 hours are up, a panel of expert judges will pick the top ten winners.</p>
+</blockquote>
+</p>
+<p>
+I received an email notifying me that judging begins today, so I cracked my knuckles, sat down in front of my three monitors (all the better to judge with!) and &hellip; saw that there were around <b>340 entries</b>.
+</p>
+<p>
+<a href="http://railsrumble.com/entries/all"><img alt="Rails rumble entries" title="Rails rumble entries" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017d3cc0fb7e970c-800wi" width="475" height="558" /></a>
+</p>
+<p>
+That's when I started to get a little freaked out about the math. Perhaps we can throw 5% of the entrants out as obviously incomplete or unfinished. That leaves 323 entries to judge. Personally, I'm not comfortable saying I judged a competition unless I actually <i>look</i> at each one of the entries, so at an absolute <i>minimum</i> I have to click through to each webapp. Once I do, I couldn't imagine properly evaluating the webapp without spending at least 30 seconds looking at the homepage.
+</p>
+<p>
+Let's be generous and say I need 10 seconds to orient myself and account for page load times, and 30 seconds to look at each entry. That totals <b>three and a half hours</b> of my, y'know, infinitely valuable time. In which I could be finding a cure for cancer, or clicking on LOLcats. I still felt guilty about only allocating half a minute per entry; is it fair to the contestants if I make my decision based on 30 seconds of scanning their landing page and maybe a few desultory clicks?
+</p>
+<p>
+But then I had an epiphany: <b>yes, deciding in 30 seconds <i>is</i> totally completely unfair, but that's also exactly how it works in the real world</b>. Users are going to click through to your web site, look at it for maybe 30 seconds, and either decide that it's worthy, or reach for the almighty back button on their browser and bug out. Thirty seconds might even be a bit generous. In <a href="http://www.websiteoptimization.com/speed/tweak/blink/">one Canadian study</a>, users made up their mind about websites in <i>under a second</i>.
+</p>
+<p>
+<blockquote><p>
+Researchers led by Dr. Gitte Lindgaard at Carleton University in Ontario wanted to find out how fast people formed first impressions. They tested users by flashing web pages for 500 millseconds and 50 milliseconds onto the screen, and had participants rate the pages on various scales. The results at both time intervals were consistent between participants, although the longer display produced more consistent results. Yet, in as little as 50 milliseconds, participants formed judgments about images they glimpsed. The "halo effect" of that emotional first impression carries over to cognitive judgments of a web site's other characteristics including usability and credibility.
+</p></blockquote>
+</p>
+<p>
+The opportunity cost to switch websites is one tiny little click of the mouse or tap of the finger. What I learned from judging the Rails Rumble most of all is that <b>your website's front page needs to be kind of awesome</b>. It is never the complete story, of course, but do not squander your first opportunity to make an impression on a visitor. It may be the only one you get.
+</p>
+<p>
+I'm not sure I was learning much about these apps while I judged, and for that I am truly sorry. But along the way I accidentally learned a heck of a lot about <b>what makes a great front page</b> for a web application. So I'd like to share that with you, and all future Rails Rumble entrants:
+</p>
+<ol>
+<li><b>Load reasonably fast</b>.<br/>
+<p>I've talked about <a href="http://www.codinghorror.com/blog/2011/06/performance-is-a-feature.html">performance as a feature</a> before; the sooner the front page of your site loads, the sooner I can decide whether or not I am interested. If you are slow, I will resent you for being slow, and the slower you are the more I will resent you for keeping me from not just finding out about you but also keeping me from moving on to the next thing. I need to be an <a href="http://www.codinghorror.com/blog/2007/06/designing-for-informavores-or-why-users-behave-like-animals-online.html">efficient informavore</a>. That means moving quickly. Above all else, <i>load fast</i>.</p>
+<li><b>What the %#!@^ is this thing?</b><br/><p>
+The first challenge you have is not coding your app. It is explaining what problem your app solves, and why anyone in the world would possibly care about that. You need <a href="http://www.codinghorror.com/blog/2007/09/can-your-team-pass-the-elevator-test.html">an elevator pitch</a> on your front page: can you explain to a complete stranger, in 30 seconds, why your application exists? Yes, writing succinctly and clearly is an art, but keep pounding on that copy, keep explaining it over and over and over until you have your explanation polished to the fine sheen of a diamond. When you're confident you could walk up to any random person on the street, strike up a conversation about what you're working on, and not have their eyes gloss over in boredom and/or fear &ndash; that's when you're ready. That's the text you want on your home page.
+</p>
+<li><b>Show me an example.</b><br/><p>
+OK, so you're building the ultimate tool for cataloging and sharing Beanie Babies on Facebook. Awesome, let me be an angel investor in your project so I can get me a piece of those sweet, sweet future billions. The idea is sound. But everyone knows that <a href="http://www.codinghorror.com/blog/2010/01/cultivate-teams-not-ideas.html">ideas are worthless, whereas execution is everything</a>. I have no clue what the execution of your idea is unless you <i>show it to me</i>. At the very least throw up some screenshots of what it would look like if I used your webapp, with some juicy real world examples. And please, please, please, for the love of God please, do not make me sign up, click through a video, watch a slideshow, or any of that nonsense. Only emperors and princes have that kind of time, man. <a href="http://www.codinghorror.com/blog/2005/07/show-dont-tell.html">Show, don't tell</a>.
+<li><b>Give me a clear, barrier-free call to action.</b><br/><p>
+In the rare cases where the app passes the above three tests with flying colors, I'm invested: I am now willing to spend even <i>more</i> of my time checking it out. What do I do next? Where do I go? Your job is to make this easy for me. I call this "the put a big-ass giant obvious fluorescent lime green button on your home page" rule. You can have more than one, but I'd draw the line at two. And make the text on the button descriptive, like <kbd>Start sharing your favorite Beanie Babies &rarr;</kbd> or <kbd>Build your dream furry costume &rarr;</kbd>. If you require login at this point, I strongly urge you to skip that barrier and have a live sample I can view without logging in at all, just to get a taste of how things might work. If you're really, <i>really</i> slick you will make it seamless to go from an unregistered to a registered state without losing anything I've done.
+</p>
+<li><b>Embrace your audience, even if it means excluding other audiences.</b><br/>
+<p>
+Even if you nail all the above, you might not fit into my interest zone through absolutely no fault of your own. If you built the world's most innovative and utterly disruptive Web 5.0 Pokédex, there's a lot of people who won't care one iota about it, because they're <a href="http://xkcd.com/178/">not really into Pokemon</a>. This is not your fault and it is certainly not their fault. You need to embrace the idea that half of all success is knowing your core audience and not trying to water it down so much that it appeals to "everyone". Don't patronize me by trying to sell me on the idea that <i>everyone</i> should care about babies, or invoicing, or sports, or being a student, or whatever. Only the people who need to care will care, and that's who you are talking to. So have the confidence to act like it.
+</p>
+</ol>
+<p>I realize that Rails Rumble apps only have a mere 48 hours to build an entire app from scratch. I am not expecting a super professional amazing home page on every one of the entries, nor did I judge it that way. But I do know that <b>a basic sketch of a homepage design is the <i>first</i> thing you should work on in any webapp, because it serves as the essential starting design document and vision statement.</b> Unless you <i>start</i> with a basic homepage that meets the above 5 rules, your app won't survive most judges, much less the <a href="http://www.codinghorror.com/blog/2007/06/designing-for-informavores-or-why-users-behave-like-animals-online.html">herds of informavores</a> running wild on the Internet. 
+</p>
+<table> 
+<tr><td class="welovecodinghorror"> 
+[advertisement] Hiring developers? Post your open positions with <a href="http://careers.stackoverflow.com" rel="nofollow">Stack Overflow Careers</a> and reach over 20MM awesome devs already on Stack Overflow. Create <a href="http://careers.stackoverflow.com/jobs/post" rel="nofollow"> your satisfaction-guaranteed job listing</a> today! 
+</td></tr> 
+</table>
+]]></description>
+			<guid>http://www.codinghorror.com/blog/2012/10/judging-websites.html</guid>
+			<pubDate>Tue, 16 Oct 2012 17:13:45 -0700</pubDate>
+		</item>
+	
+		<item>
+			<title>Building Servers for Fun and Prof... OK, Maybe Just for Fun</title>
+			<link>http://www.codinghorror.com/blog/2012/10/building-servers-for-fun-and-prof-ok-maybe-just-for-fun.html</link>
+			<description><![CDATA[<p>
+In 1998 I briefly worked for FiringSquad, a gaming website founded by Doom and Quake champion Thresh aka <a href="http://en.wikipedia.org/wiki/Dennis_Fong">Dennis Fong</a> and his brother Kyle. I can trace my long-standing interest in <a href="http://www.firingsquad.com/hardware/aeron/default.asp">chairs</a> and <a href="http://www.firingsquad.com/guides/keyboards/default.asp">keyboards</a> to some of the early, groundbreaking articles they wrote. Dennis and Kyle were great guys to work with, and we'd occasionally chat on the phone about geeky hardware hotrodding stuff, like the one time they got so embroiled in PC build one-upmanship that they were actually building rack-mount PCs &hellip; <i>for their home</i>.
+</p>
+<p>
+So I suppose it is inevitable that I'd eventually get around to writing an article about <b>building rack-mount PCs</b>. But <i>not</i> the kind that go in your home. No, that'd be as nuts as the now-discontinued <a href="http://en.wikipedia.org/wiki/Windows_Home_Server">Windows Home Server</a> product.
+</p>
+<p>
+<a href="http://www.amazon.com/dp/160530641X/?tag=codihorr-20"><img alt="Mommy, Why is There a Server in the House" title="Mommy, Why is There a Server in the House" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017c327d5a4e970b-800wi" width="470" height="393" /></a>
+</p>
+<p>
+Servers belong in their native habitat, the datacenter. Which can be <a href="http://scobleizer.com/2011/04/16/photo-tour-of-facebooks-new-datacenter/">kind of amazing places in their own right</a>. 
+</p>
+<p>
+<a href="http://www.anandtech.com/show/4958/facebooks-open-compute-server-tested"><img alt="Facebook-datacenter-1u-racks" title="Facebook-datacenter-1u-racks" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017d3cabf83c970c-800wi" width="610" height="563" /></a>
+</p>
+<p>
+The above photo is from Facebook's <a href="http://opencompute.org/">Open Compute Project</a>, which is about building extremely energy efficient datacenters. And that starts with <a href="http://www.datacenterknowledge.com/closer-look-open-compute-server-designs/">minimalistic, no-frills 1U server designs</a>, where 1U is the smallest amount of space divisible in a server rack.
+</p>
+<p>
+I doubt many companies are big enough to even consider building their own datacenter, but if Facebook is building their own custom servers out of commodity x86 parts, couldn't we do it too? In a world of inexpensive, rentable virtual machines, like <a href="http://aws.amazon.com/ec2/">Amazon EC2</a>, <a href="https://cloud.google.com/products/compute-engine">Google Compute Engine</a>, and <a href="http://www.windowsazure.com/en-us/">Azure Cloud</a>, <b>does it really make sense to build your own server and colocate it in a datacenter?</b> 
+</p>
+It's <a href="https://blog.cloudvertical.com/2012/10/aws-cost-cheat-sheet-2/">kind of tough</a> to tell exactly how much an Amazon EC2 instance will cost you since it varies a lot by usage. But if I use the Amazon Web Services <a href="http://calculator.s3.amazonaws.com/calc5.html">simple monthly calculator</a> and select the Web Application "common customer sample", that provides a figure of <b>$1,414 per month, or $17k/year</b>. If you want to run a typical web app on EC2, that's what you should expect to pay. So let's use that as a baseline.
+<p>
+The <a href="http://aws.amazon.com/ec2/instance-types/">instance types</a> included in the Web Application customer sample are <s>2</s>4 small (for the front end), and <s>1</s>2 large (for the database). Here are the current specs on the large instance:
+</p>
+<ul>
+<li>7.5 GB memory
+<li>2 virtual cores with 2 EC2 Compute Units each
+<li>850 GB instance storage
+<li>64-bit platform
+<li>I/O Performance: High
+</ul>
+<p>
+You might be wondering what the heck a <a href="http://aws.amazon.com/ec2/faqs/#What_is_an_EC2_Compute_Unit_and_why_did_you_introduce_it">EC2 Compute Unit</a> is; it's Amazon's way of normalizing CPU performance. By their <a href="http://aws.amazon.com/ec2/faqs/#What_is_an_EC2_Compute_Unit_and_why_did_you_introduce_it">definition</a>, what we get in the large instance is akin to an old <a href="http://en.wikipedia.org/wiki/Xeon#Overview">2008 era</a> dual core 2.4 GHz Xeon CPU. Yes, you can pay more and get <a href="http://aws.amazon.com/ec2/instance-types/">faster instances</a>, but switching instances from the small to the high-CPU and from the large to the high-MEM more than doubles the bill to <b>$3,302 per month or $40k/year</b>.
+</p>
+<p>
+Assuming you subscribe to the theory of <a href="http://www.codinghorror.com/blog/2009/06/scaling-up-vs-scaling-out-hidden-costs.html">scaling out versus scaling up</a>, building a bunch of decent bang-for-the-buck commodity servers is what you're supposed to be doing. I avoided directly building servers when we were scaling up Stack Overflow, electing to <a href="http://blog.stackoverflow.com/2009/01/new-stack-overflow-server-glamour-shots/">buy pre-assembled hardware from Lenovo instead</a>. But this time, I decided the state of hardware has advanced sufficiently since 2009 that I'm comfortable cutting out the middleman in 2012 and <b>building the servers myself, from scratch</b>. That's why I just built four servers exactly like this:
+</p>
+<ul>
+<li>Intel <a href="http://ark.intel.com/products/65725/Intel-Xeon-Processor-E3-1280V2-8M-Cache-3_60-GHz">Xeon E3-1280</a> V2 Ivy Bridge 3.6 Ghz / 4.0 Ghz turbo quad-core ($640)
+<li>SuperMicro <a href="http://www.amazon.com/dp/B004WKRDA4/?tag=codihorr-20">X9SCM-F-O</a> ($190)
+<li>32 GB DDR3-1600 ($292)
+<li>SuperMicro <a href="http://www.supermicro.com/products/chassis/1U/111/SC111LT-330C.cfm">SC111LT-330CB</a> 1U rackmount chassis ($200)
+<li>Two <a href="http://www.amazon.com/dp/B0077CR6B0/?tag=codihorr-20">Samsung 830</a> 512GB hard drives in a <a href="http://www.codinghorror.com/blog/2009/05/beyond-raid.html">RAID-1 mirror</a> ($540 &times; 2)
+</ul>
+<p>
+(If you are using this as a shopping list, you will also need 4-pin power <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16812200961">extensions</a> for the case, and the SuperMicro 1u <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16816101298">passive heatsink</a>. The killer feature of SuperMicro motherboards that makes them all server-y in the first place is the built in <a href="http://www.servethehome.com/supermicro-ipmiview-review-remote-server-monitoring-management-ipmi-20-kvm-over-ip/">hardware KVM-over-IP</a>. That's right, unless the server is literally unplugged, you can remote in and install an operating system, tweak the BIOS, power it on and off, and so on. It works. I use it daily.)
+</p>
+<p>
+<img alt="Parts for building 1U server" title="Parts for building 1U server" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017d3cba4355970c-800wi" width="720" height="549" />
+</p>
+<p>
+Based on the above specs, this server has comparable memory to the High-Memory Double Extra Large Instance, comparable CPU power to the High-CPU Extra Large Instance, and comparable disk performance to the High I/O Quadruple Extra Large Instance. This is a very, <i>very</i> high end server <a href="http://aws.amazon.com/ec2/instance-types/">by EC2 standards</a>. It would be prohibitively expensive to run this hardware in the Amazon cloud. But how much will it cost us to build? Just $2,452. Adding 10% for taxes, shipping, etc let's call it $2,750 per server. <b>One brand new top-of-the-line server costs about as much as two months of EC2 web application hosting.</b>
+</p>
+<p>
+Of course, that figure doesn't include the cost in time to build and rack the server, the <a href="http://blog.pinboard.in/2012/06/going_colo/">cost of colocating the server</a>, and the ongoing cost of managing and maintaining the server. But I humbly submit that the one-time cost of paying for three of these servers, plus the cost of colocation, plus a bunch of extra money on top to cover provisioning and maintenance and support, will still be <i>significantly</i> less than $17,000 for a <i>single year</i> of EC2 web application hosting. Every year after the first year will be gravy, until the servers are obsolete &ndash; which even conservatively has to be at least three years. Perhaps most importantly, these servers will offer <b>vastly better performance</b> than you could get from EC2 to run your web application, at least not without paying astronomical amounts of money for the privilege.
+</p>
+<p>
+<a href="http://www.codinghorror.com/.a/6a0120a85dcdae970b017d3cba48ac970c-pi"><img alt="Newly built rackmount 1U server" title="Newly built rackmount 1U server" src="http://www.codinghorror.com/.a/6a0120a85dcdae970b017c328ba936970b-800wi" width="720" height="489" /></a>
+</p>
+<p>
+(If you are concerned about power consumption, don't be. I just measured the power use of the server using my trusty <a href="http://www.codinghorror.com/blog/2005/08/why-estimate-when-you-can-measure.html">Kill-a-Watt device</a>: <b>31 watts</b> (0.28 amps) at idle, <b>87 watts</b> (0.75 amps) under never-gonna-happen artificial 100% CPU load. The three front fans in the SuperMicro case are plugged into the motherboard and only spin up at boot and under extreme load. It's shockingly quiet in typical use for a 1U server.)
+</p>
+<p>
+I realize that to some extent we're comparing apples and oranges. Either you have a perverse desire to <a href="http://blog.pinboard.in/2012/05/a_cloud_of_my_own/">mess around with hardware</a>, or you're more than willing to pay exorbitant amounts of money to have someone else worry about all that stuff (and, to be fair, give you levels of flexibility, bandwidth, and availability that would be impossible to achieve even if you colocate servers at multiple facilities). $51,000 over three years is enough to pay for a <i>lot</i> of colocation and very high end hardware. But maybe the truly precious resource at your organization is people's time, not money, and that $51k is barely a rounding error in your budget.
+</p>
+<p>
+Anyway, I want to make it clear that <b>building and colocating your own servers isn't (always) crazy, it isn't scary, heck, it isn't even particularly <i>hard</i></b>. In some situations it can make sense to build and rack your own servers, provided &hellip;
+</p>
+<ul>
+<li>you want absolute top of the line server performance without paying thousands of dollars per month for the privilege
+<li>you are willing to invest the time in building, racking, and configuring your servers
+<li>you have the capital to invest up front
+<li>you desire total control over the hardware
+<li>you aren't worried about the flexibility of quickly provisioning new servers to handle unanticipated load
+<li>you don't need the redundancy, geographical backup, and flexibility that comes with cloud virtualization
+</ul>
+</p>
+<p>
+Why do I choose to build and colocate servers? Primarily to achieve maximum performance. That's the one thing you consistently just <i>do not get</i> from cloud hosting solutions unless you are willing to pay a massive premium, per month, forever: raw, unbridled performance. I'm happy to spend money on nice dedicated hardware because I know that <a href="http://www.codinghorror.com/blog/2008/12/hardware-is-cheap-programmers-are-expensive.html">hardware is cheap, and programmers are expensive</a>.
+</p>
+<p>
+But to be totally honest with you, mostly I build servers because it's fun.
+</p>
+<table> 
+<tr><td class="welovecodinghorror"> 
+[advertisement] <a href="http://careers.stackoverflow.com/" rel="nofollow">Stack Overflow Careers</a> matches the best developers (you!) with the best employers. You can search our <a href="http://careers.stackoverflow.com/jobs" rel="nofollow">job listings</a> or <a href="http://careers.stackoverflow.com/cv" rel="nofollow">create a profile</a> and even let employers find you.
+</td></tr> 
+</table> ]]></description>
+			<guid>http://www.codinghorror.com/blog/2012/10/building-servers-for-fun-and-prof-ok-maybe-just-for-fun.html</guid>
+			<pubDate>Mon, 15 Oct 2012 09:46:35 -0700</pubDate>
+		</item>
+	
+	</channel>
+</rss><!-- ph=1 -->

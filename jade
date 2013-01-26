@@ -1,0 +1,11 @@
+#!/bin/sh
+
+NAMESPACE=window.TEMPLATE
+INPUT=$1
+OUTPUT=$1.js
+
+echo $OUTPUT
+echo "" > $OUTPUT
+echo "(function(){ $NAMESPACE = $NAMESPACE || {};" >> $OUTPUT
+jade -c < $INPUT >> $OUTPUT
+echo "$NAMESPACE['$INPUT'] = anonymous;})();" >> $OUTPUT
