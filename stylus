@@ -3,4 +3,7 @@
 DIR="$( cd -P "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd $DIR
 
-stylus -w --out ./css_compiled ./styl/*.styl
+OUTPUT_DIR=./css_compiled
+
+mkdir -p $OUTPUT_DIR
+stylus -w --out $OUTPUT_DIR ./styl/*.styl

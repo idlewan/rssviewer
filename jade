@@ -9,6 +9,8 @@ OUTPUT_DIR=./js_compiled
 FILENAME=$(basename $1)
 OUTPUT=$FILENAME.js
 
+mkdir -p $OUTPUT_DIR
+
 echo $OUTPUT
 echo "" > $OUTPUT_DIR/$OUTPUT
 echo "(function(){ $NAMESPACE = $NAMESPACE || {};" >> $OUTPUT_DIR/$OUTPUT

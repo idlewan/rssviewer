@@ -3,4 +3,7 @@
 DIR="$( cd -P "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd $DIR
 
-coffee -l -w --output ./js_compiled --compile ./src/
+OUTPUT_DIR=./js_compiled
+
+mkdir -p $OUTPUT_DIR
+coffee -l -w --output $OUTPUT_DIR --compile ./src/
