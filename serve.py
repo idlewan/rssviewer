@@ -1,3 +1,5 @@
+#!/usr/bin/env python2
+
 # taken from https://github.com/ametaireau/webappserver 
 
 from SimpleHTTPServer import SimpleHTTPRequestHandler

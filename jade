@@ -1,11 +1,16 @@
 #!/bin/sh
 
+DIR="$( cd -P "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd $DIR
+
 NAMESPACE=window.TEMPLATE
 INPUT=$1
-OUTPUT=$1.js
+OUTPUT_DIR=./js_compiled
+FILENAME=$(basename $1)
+OUTPUT=$FILENAME.js
 
 echo $OUTPUT
-echo "" > $OUTPUT
-echo "(function(){ $NAMESPACE = $NAMESPACE || {};" >> $OUTPUT
-jade -c < $INPUT >> $OUTPUT
-echo "$NAMESPACE['$INPUT'] = anonymous;})();" >> $OUTPUT
+echo "" > $OUTPUT_DIR/$OUTPUT
+echo "(function(){ $NAMESPACE = $NAMESPACE || {};" >> $OUTPUT_DIR/$OUTPUT
+jade -c < $INPUT >> $OUTPUT_DIR/$OUTPUT
+echo "$NAMESPACE['$FILENAME'] = anonymous;})();" >> $OUTPUT_DIR/$OUTPUT

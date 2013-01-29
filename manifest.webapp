@@ -4,7 +4,7 @@
   "description": "A simple rss viewer for one (and soon more!) rss feed.",
   "launch_path": "/",
   "icons": {
-    "128": "/rssviewer.png"
+    "128": "/icon128.png"
   },
   "developer": {
     "name": "Erwan Ameil & Romain Brasier",
