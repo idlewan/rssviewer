@@ -11,10 +11,9 @@ Then, execute in different terminals the 'coffee' and 'stylus' scripts:
 
     $ ./stylus
 
-To compile the jade templates, execute the jade script followed by the template path.
+To compile the jade templates, execute the 'make' command. You can recompile automatically with 'watch'.
 
-    $ ./jade template/detail.jade
-    $ ./jade template/list.jade
+    $ watch make
 
 Serve the app locally using the serve.py script.
 
